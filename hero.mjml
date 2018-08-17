@@ -1,0 +1,11 @@
+<mj-hero background-color="#4C2582" padding="30px 0" background-url="https://prodigiouslatam.blob.core.windows.net/talent-development/einstein.png" background-position="top right">
+  <mj-text color="#fff" font-size="21px" align="left" line-height="25px" font-weight="500">
+    #UPCOMING TRAINING
+  </mj-text>
+  <mj-text color="#fff" font-size="14px" align="left" line-height="20px" font-weight="100">
+    Si buscas resultados distintos, no hagas siempre lo mismo.
+  </mj-text>
+  <mj-text color="#fff" font-size="14px" align="right" font-weight="100" font-style="italic">
+    Albert Einstein
+  </mj-text>
+</mj-hero>
