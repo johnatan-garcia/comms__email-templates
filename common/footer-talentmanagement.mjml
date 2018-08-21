@@ -1,0 +1,22 @@
+<mj-section background-color="#4C2582" padding="0">
+    <mj-column width="70%">
+    <mj-text mj-class="preheader" color="#FFFFFF" padding="25px 30px 20px" line-height="18px">
+        For additional information, please contact <a style="font-weight: bold" href="mailto:diana.ospino@prodigious.com">Diana Ospino</a> from the Talent Development department
+    </mj-text>
+    </mj-column>
+    <mj-column width="30%">
+    <mj-social mode="horizontal" padding="20px 30px">
+        <mj-social-element name="facebook"  href="https://www.facebook.com/ProdigiousLATAM/"></mj-social-element>
+        <mj-social-element name="instagram" href="https://www.instagram.com/prodigious_latam"></mj-social-element>
+        <mj-social-element name="google"    href="https://plus.google.com/u/0/112131923633671889433"></mj-social-element>
+    </mj-social>
+    </mj-column>
+</mj-section>
+<mj-include path="./common/footer-simple.mjml" />
+<mj-section padding-bottom="20px" padding-top="5px">
+    <mj-group>
+    <mj-column>
+        <mj-text mj-class="preheader" align="center" line-height="18px"><span style="display: none"><unsubscribe>&nbsp;</unsubscribe></span></mj-text>
+    </mj-column>
+    </mj-group>
+</mj-section>

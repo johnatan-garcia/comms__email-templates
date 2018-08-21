@@ -1,0 +1,74 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text font-family="Gotham, Verdana, sans-serif" color="#000000"></mj-text>
+      <mj-class name="description"></mj-class>
+      <mj-class name="preheader"  color="#000000" font-size="11px" padding-left="25px" padding-right="25px"></mj-class>
+      <mj-class name="heading"    color="#FFFFFF" font-size="50px" line-height=".8"></mj-class>
+      <mj-class name="title"      font-size="20px" line-height="1"></mj-class>
+      <mj-class name="quote"      font-size="18px" line-height="1.05"></mj-class>
+      <mj-class name="author"     font-size="12px" line-height="1.2"></mj-class>
+      <mj-class name="regular"    font-size="15px" line-height="1"></mj-class>
+      <mj-class name="button" background-color="#4C2582" color="#000000" font-size="15px" line-height="20px" border-radius="3px" font-family="Gotham, sans-serif"></mj-class>
+    </mj-attributes>
+    <mj-style inline="inline">
+        a { color: inherit !important; }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#ffffff">
+    <mj-include path="./common/preheading.mjml" />
+    <mj-hero
+        mode="fixed-height"    
+        background-color="#4C2582"
+        background-url="https://prodigiouslatam.blob.core.windows.net/talent-development/backgrounds/apple-with-board.jpg"
+        padding="20px 0">
+        <mj-image align="left" width="40px" src="https://prodigiouslatam.blob.core.windows.net/talent-development/prodigious-logo-only.png" padding="0 0 0 25px"></mj-image>
+        <mj-text mj-class="heading" padding-bottom="250px">NEWS</mj-text>
+        <mj-text mj-class="quote" align="center" color="#FFF">
+            "<singleline label="Quote">Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.</singleline>"
+        </mj-text>
+        <mj-text mj-class="author" align="center" color="#CCC" padding="0">
+            - <singleline label="Author">Samuel Beckett</singleline>
+        </mj-text>
+    </mj-hero>
+
+    <!-- Talent Management -->
+    <mj-include path="./common/header-talentmanagement.mjml" />
+    <mj-section background-color="#4C2582" padding="20px 5px">
+        <mj-raw><repeater></mj-raw>
+        
+        <!-- Single Column -->
+        <mj-raw><layout label="Single Column"></mj-raw>
+            <mj-column width="2%"></mj-column>
+            <mj-column width="96%" padding="5px" border="1px solid #FFF" background-color="white">
+                <mj-text mj-class="title"   color="#4C2582" align="center" padding-top="15px" text-transform="uppercase"><singleline label="Training Name">CSS Grid Layouts</singleline></mj-text>
+                <mj-text mj-class="regular" color="#4C2582" align="center" padding="0 0 10px"><singleline label="Description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed urna in neque volutpat ultricies.</singleline></mj-text>
+                <mj-text mj-class="author"  color="#656565" align="center" padding="10px 0"><singleline label="Trainer">Juan Carlos Beltran</singleline>, <singleline label="Date">August 22nd, 4pm</singleline></mj-text>
+            </mj-column>
+            <mj-column width="2%"></mj-column>
+            <mj-column width="100%"><mj-spacer height="5px"></mj-spacer></mj-column>
+        <mj-raw></layout></mj-raw>
+
+        <!-- Double Column -->
+        <mj-raw><layout label="Two Columns"></mj-raw>
+            <mj-column width="2%"></mj-column>
+            <mj-column width="47.5%" padding="5px" border="1px solid #FFF" background-color="white">
+                <mj-text mj-class="title"   color="#4C2582" align="center" padding-top="15px" text-transform="uppercase"><singleline label="Training Name">CSS Grid Layouts</singleline></mj-text>
+                <mj-text mj-class="regular" color="#4C2582" align="center" padding="0 0 10px"><singleline label="Description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed urna in neque volutpat ultricies.</singleline></mj-text>
+                <mj-text mj-class="author"  color="#656565" align="center" padding="10px 0"><singleline label="Trainer">Juan Carlos Beltran</singleline>, <singleline label="Date">August 22nd, 4pm</singleline></mj-text>
+            </mj-column>
+            <mj-column width="1%"><mj-spacer height="5px"></mj-spacer></mj-column>
+            <mj-column width="47.5%" padding="5px" border="1px solid #FFF" background-color="white">
+                <mj-text mj-class="title"   color="#4C2582" align="center" padding-top="15px" text-transform="uppercase"><singleline label="Training Name">CSS Grid Layouts</singleline></mj-text>
+                <mj-text mj-class="regular" color="#4C2582" align="center" padding="0 0 10px"><singleline label="Description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed urna in neque volutpat ultricies.</singleline></mj-text>
+                <mj-text mj-class="author"  color="#656565" align="center" padding="10px 0"><singleline label="Trainer">Juan Carlos Beltran</singleline>, <singleline label="Date">August 22nd, 4pm</singleline></mj-text>
+            </mj-column>
+            <mj-column width="2%"></mj-column>
+            <mj-column width="100%"><mj-spacer height="5px"></mj-spacer></mj-column>
+        <mj-raw></layout></mj-raw>
+
+        <mj-raw></repeater></mj-raw>
+    </mj-section>
+    <mj-include path="./common/footer-simple.mjml" />
+  </mj-body>
+</mjml>

@@ -1,0 +1,7 @@
+<mj-section padding-bottom="0" padding-top="20px">
+    <mj-group>
+    <mj-column>
+        <mj-text mj-class="preheader" align="center">If you're unable to see this message, <webversion>CLICK HERE to view in a browser</webversion></mj-text>
+    </mj-column>
+    </mj-group>
+</mj-section>

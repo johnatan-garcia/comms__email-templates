@@ -12,19 +12,8 @@
     </mj-style>
   </mj-head>
   <mj-body background-color="#ffffff">
-    <mj-section padding-bottom="0" padding-top="20px">
-      <mj-group>
-        <mj-column>
-          <mj-text mj-class="preheader" align="center">If you're unable to see this message, <webversion>CLICK HERE to view in a browser</webversion></mj-text>
-        </mj-column>
-      </mj-group>
-    </mj-section>
-    <mj-section padding-bottom="0" padding-top="0">
-      <mj-column width="45%">
-        <mj-image href="https://www.prodigious.com" src="https://prodigiouslatam.blob.core.windows.net/talent-development/header.png" alt="" width="217px" padding="20px"></mj-image>
-      </mj-column>
-      <mj-column width="55%"></mj-column>
-    </mj-section>
+    <mj-include path="./common/preheading.mjml" />
+    <mj-include path="./common/header-talentmanagement.mjml" />
     <mj-section background-color="#4C2582">
       <mj-column>
         <mj-text align="center" font-size="18px" padding="0 25px" color="#BBB">
@@ -51,31 +40,6 @@
         <mj-button mj-class="button" color="#FFFFFF" href='https://forms.office.com/Pages/ResponsePage.aspx?id=oZ4s1SF8sUeCozOnSx90uJVYhBpksYxDoZXgsMeqUWFUMzY5V0VZQjI5V1BCRTQ1Q05IUlBWSlhMMi4u' padding="180px 25px 10px"><span style="color: #FFFFFF">REGISTER NOW</span></mj-button>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#4C2582" padding="0">
-      <mj-column width="70%">
-        <mj-text mj-class="preheader" color="#FFFFFF" padding="25px 30px 20px" line-height="18px">
-          For additional information, please contact <a style="font-weight: bold" href="mailto:diana.ospino@prodigious.com">Diana Ospino</a> from the Talent Development department
-        </mj-text>
-      </mj-column>
-      <mj-column width="30%">
-        <mj-social mode="horizontal" padding="20px 30px">
-          <mj-social-element name="facebook"  href="https://www.facebook.com/ProdigiousLATAM/"></mj-social-element>
-          <mj-social-element name="instagram" href="https://www.instagram.com/prodigious_latam"></mj-social-element>
-          <mj-social-element name="google"    href="https://plus.google.com/u/0/112131923633671889433"></mj-social-element>
-        </mj-social>
-      </mj-column>
-    </mj-section>
-    <mj-section background-color="#333332" padding-top="15px" padding-bottom="10px">
-      <mj-column>
-        <mj-image href="https://www.prodigious.com" align="center" width="125px" src="https://prodigiouslatam.blob.core.windows.net/talent-development/logo.png" padding="0"></mj-image>
-      </mj-column>
-    </mj-section>
-    <mj-section padding-bottom="20px" padding-top="5px">
-      <mj-group>
-        <mj-column>
-          <mj-text mj-class="preheader" align="center" line-height="18px"><span style="display: none"><unsubscribe>&nbsp;</unsubscribe></span></mj-text>
-        </mj-column>
-      </mj-group>
-    </mj-section>
+    <mj-include path="./common/footer-talentmanagement.mjml" />
   </mj-body>
 </mjml>

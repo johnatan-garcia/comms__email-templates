@@ -1,0 +1,6 @@
+<mj-section padding-bottom="0" padding-top="0" background-color="#000">
+    <mj-column width="55%">
+        <mj-image href="https://www.prodigious.com" align="center" width="125px" src="https://prodigiouslatam.blob.core.windows.net/talent-development/logo.png" padding="0"></mj-image>
+    </mj-column>
+    <mj-column width="45%"></mj-column>
+</mj-section>
