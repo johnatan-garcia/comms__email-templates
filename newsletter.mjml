@@ -5,6 +5,7 @@
       <mj-class name="description"></mj-class>
       <mj-class name="preheader"  color="#000000" font-size="11px" padding-left="25px" padding-right="25px"></mj-class>
       <mj-class name="heading"    color="#FFFFFF" font-size="50px" line-height=".8"></mj-class>
+      <mj-class name="subheading" color="#FFFFFF" font-size="30px" line-height=".8"></mj-class>
       <mj-class name="title"      font-size="20px" line-height="1"></mj-class>
       <mj-class name="quote"      font-size="18px" line-height="1.05"></mj-class>
       <mj-class name="author"     font-size="12px" line-height="1.2"></mj-class>
@@ -19,7 +20,7 @@
     <mj-include path="./common/preheading.mjml" />
     <mj-hero
         mode="fixed-height"    
-        background-color="#4C2582"
+        background-color="#333333"
         background-url="https://prodigiouslatam.blob.core.windows.net/talent-development/backgrounds/apple-with-board.jpg"
         padding="20px 0">
         <mj-image align="left" width="40px" src="https://prodigiouslatam.blob.core.windows.net/talent-development/prodigious-logo-only.png" padding="0 0 0 25px"></mj-image>
@@ -32,15 +33,70 @@
         </mj-text>
     </mj-hero>
 
+    <!-- Compensation & Benefits -->
+    <mj-include path="./common/header-compensation.mjml" />
+    <mj-section background-color="#f6871e" background-url="https://prodigiouslatam.blob.core.windows.net/talent-development/backgrounds/birthday-transparent-3.png" background-size="45%" background-repeat="repeat" padding="35px 15px 25px 15px">
+        <mj-column width="80%">
+            <mj-text mj-class="subheading" align="left" padding="0" text-transform="uppercase" padding-bottom="5px"><singleline label="Heading">#HappyBirthday</singleline></mj-text>
+            <mj-text mj-class="title" color="#FFFFFF" align="left" padding="0" padding-bottom="40px"><singleline label="Subheading">The warmest birthday to you all!</singleline></mj-text>
+            <mj-text mj-class="regular" color="#FFFFFF" align="left" padding="0">
+                <multiline label="Description">
+                    Workdays are much more lively and entertaining with you.
+                    Wishing you best of luck in everything that you do!
+                </multiline>
+            </mj-text>
+        </mj-column>
+        <mj-column width="20%">
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#FFFFFF" padding="30px 15px">
+        <mj-raw><repeater></mj-raw>
+        <mj-column width="50%">
+            <mj-text mj-class="regular" align="left"><singleline label="Name Left">Name on the left</singleline></mj-text>
+        </mj-column>
+        <mj-column width="50%">
+            <mj-text mj-class="regular" align="left"><singleline label="Name Right">Name on the right</singleline></mj-text>
+        </mj-column>
+        <mj-raw></repeater></mj-raw>
+    </mj-section>
+    <mj-section background-color="#f6871e" padding="35px 15px 25px 15px">
+        <mj-column width="80%">
+            <mj-text mj-class="subheading" align="left" padding="0" text-transform="uppercase" padding-bottom="5px"><singleline label="Heading">#OwenBoardGame</singleline></mj-text>
+            <mj-text mj-class="title" color="#FFFFFF" align="left" padding="0" padding-bottom="40px"><singleline label="Subheading">Reta tu mente, genera estrategias y explora nuevas experiencias con juegos que nunca imaginaste conocer.</singleline></mj-text>
+            <mj-text mj-class="regular" color="#FFFFFF" align="left" padding="0">
+                <multiline label="Description">
+                    Asiste a las sesiones de juegos de mesa semanal los lunes a las 5pm y pasa un día fenomenal.
+                    Lugar: Cafetería 3er.
+                </multiline>
+            </mj-text>
+        </mj-column>
+        <mj-column width="20%">
+        </mj-column>
+    </mj-section>
+
     <!-- Talent Management -->
     <mj-include path="./common/header-talentmanagement.mjml" />
-    <mj-section background-color="#4C2582" padding="20px 5px">
+    <mj-section background-color="#4C2582" padding="35px 15px 25px 15px">
+        <mj-column width="80%">
+            <mj-text mj-class="subheading" align="left" padding="0" text-transform="uppercase" padding-bottom="5px"><singleline label="Heading">#UpcomingTrainings</singleline></mj-text>
+            <mj-text mj-class="title" color="#FFFFFF" align="left" padding="0" padding-bottom="40px"><singleline label="Subheading"></singleline></mj-text>
+            <mj-text mj-class="regular" color="#FFFFFF" align="left" padding="0">
+                <multiline label="Description">
+                    Asiste a las sesiones de juegos de mesa semanal los lunes a las 5pm y pasa un día fenomenal.
+                    Lugar: Cafetería 3er.
+                </multiline>
+            </mj-text>
+        </mj-column>
+        <mj-column width="20%">
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#FFFFFF" padding="30px 15px">
         <mj-raw><repeater></mj-raw>
         
         <!-- Single Column -->
         <mj-raw><layout label="Single Column"></mj-raw>
             <mj-column width="2%"></mj-column>
-            <mj-column width="96%" padding="5px" border="1px solid #FFF" background-color="white">
+            <mj-column width="96%" padding="5px" border="1px solid #4C2582" background-color="white">
                 <mj-text mj-class="title"   color="#4C2582" align="center" padding-top="15px" text-transform="uppercase"><singleline label="Training Name">CSS Grid Layouts</singleline></mj-text>
                 <mj-text mj-class="regular" color="#4C2582" align="center" padding="0 0 10px"><singleline label="Description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed urna in neque volutpat ultricies.</singleline></mj-text>
                 <mj-text mj-class="author"  color="#656565" align="center" padding="10px 0"><singleline label="Trainer">Juan Carlos Beltran</singleline>, <singleline label="Date">August 22nd, 4pm</singleline></mj-text>
@@ -52,13 +108,13 @@
         <!-- Double Column -->
         <mj-raw><layout label="Two Columns"></mj-raw>
             <mj-column width="2%"></mj-column>
-            <mj-column width="47.5%" padding="5px" border="1px solid #FFF" background-color="white">
+            <mj-column width="47.5%" padding="5px" border="1px solid #4C2582" background-color="white">
                 <mj-text mj-class="title"   color="#4C2582" align="center" padding-top="15px" text-transform="uppercase"><singleline label="Training Name">CSS Grid Layouts</singleline></mj-text>
                 <mj-text mj-class="regular" color="#4C2582" align="center" padding="0 0 10px"><singleline label="Description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed urna in neque volutpat ultricies.</singleline></mj-text>
                 <mj-text mj-class="author"  color="#656565" align="center" padding="10px 0"><singleline label="Trainer">Juan Carlos Beltran</singleline>, <singleline label="Date">August 22nd, 4pm</singleline></mj-text>
             </mj-column>
             <mj-column width="1%"><mj-spacer height="5px"></mj-spacer></mj-column>
-            <mj-column width="47.5%" padding="5px" border="1px solid #FFF" background-color="white">
+            <mj-column width="47.5%" padding="5px" border="1px solid #4C2582" background-color="white">
                 <mj-text mj-class="title"   color="#4C2582" align="center" padding-top="15px" text-transform="uppercase"><singleline label="Training Name">CSS Grid Layouts</singleline></mj-text>
                 <mj-text mj-class="regular" color="#4C2582" align="center" padding="0 0 10px"><singleline label="Description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed urna in neque volutpat ultricies.</singleline></mj-text>
                 <mj-text mj-class="author"  color="#656565" align="center" padding="10px 0"><singleline label="Trainer">Juan Carlos Beltran</singleline>, <singleline label="Date">August 22nd, 4pm</singleline></mj-text>

@@ -1,6 +1,6 @@
 <mj-section padding-bottom="0" padding-top="0">
     <mj-column width="35%">
-        <mj-image src="https://prodigiouslatam.blob.core.windows.net/talent-development/header.png" alt="" width="217px" padding="20px"></mj-image>
+        <mj-image src="https://prodigiouslatam.blob.core.windows.net/talent-development/headers/talent-management.png" alt="" width="429px" padding="20px"></mj-image>
     </mj-column>
     <mj-column width="65%"></mj-column>
 </mj-section>
