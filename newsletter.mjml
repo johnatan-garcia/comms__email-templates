@@ -21,10 +21,10 @@
     <mj-hero
         mode="fixed-height"    
         background-color="#333333"
-        background-url="https://prodigiouslatam.blob.core.windows.net/talent-development/backgrounds/apple-with-board.jpg"
+        background-url="https://prodigiouslatam.blob.core.windows.net/talent-development/hero/working.jpg"
         padding="20px 0">
         <mj-image align="left" width="40px" src="https://prodigiouslatam.blob.core.windows.net/talent-development/prodigious-logo-only.png" padding="0 0 0 25px"></mj-image>
-        <mj-text mj-class="heading" padding-bottom="250px">NEWS</mj-text>
+        <mj-text mj-class="heading" padding-bottom="100px">NEWS</mj-text>
         <mj-text mj-class="quote" align="center" color="#FFF">
             "<singleline label="Quote">Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.</singleline>"
         </mj-text>
@@ -37,13 +37,13 @@
     <mj-include path="./common/header-compensation.mjml" />
     <mj-section background-color="#f6871e" background-url="https://prodigiouslatam.blob.core.windows.net/talent-development/backgrounds/birthday-transparent-3.png" background-size="45%" background-repeat="repeat" padding="35px 15px 25px 15px">
         <mj-column width="80%">
-            <mj-text mj-class="subheading" align="left" padding="0" text-transform="uppercase" padding-bottom="5px"><singleline label="Heading">#HappyBirthday</singleline></mj-text>
-            <mj-text mj-class="title" color="#FFFFFF" align="left" padding="0" padding-bottom="40px"><singleline label="Subheading">The warmest birthday to you all!</singleline></mj-text>
+            <mj-text mj-class="subheading" align="left" padding="0" text-transform="uppercase" padding-bottom="5px"><singleline label="Heading Compensation 1">#HappyBirthday</singleline></mj-text>
+            <mj-text mj-class="title" color="#FFFFFF" align="left" padding="0" padding-bottom="40px"><singleline label="Subheading Compensation 1">The warmest birthday to you all!</singleline></mj-text>
             <mj-text mj-class="regular" color="#FFFFFF" align="left" padding="0">
-                <multiline label="Description">
+                <singleline label="Description Compensation 1">
                     Workdays are much more lively and entertaining with you.
                     Wishing you best of luck in everything that you do!
-                </multiline>
+                </singleline>
             </mj-text>
         </mj-column>
         <mj-column width="20%">
@@ -59,32 +59,39 @@
         </mj-column>
         <mj-raw></repeater></mj-raw>
     </mj-section>
-    <mj-section background-color="#f6871e" padding="35px 15px 25px 15px">
+    <mj-section background-color="#f6871e" background-url="https://prodigiouslatam.blob.core.windows.net/talent-development/backgrounds/owen.png" background-size="100%" background-repeat="repeat" padding="35px 15px 25px 15px">
         <mj-column width="80%">
-            <mj-text mj-class="subheading" align="left" padding="0" text-transform="uppercase" padding-bottom="5px"><singleline label="Heading">#OwenBoardGame</singleline></mj-text>
-            <mj-text mj-class="title" color="#FFFFFF" align="left" padding="0" padding-bottom="40px"><singleline label="Subheading">Reta tu mente, genera estrategias y explora nuevas experiencias con juegos que nunca imaginaste conocer.</singleline></mj-text>
+            <mj-text mj-class="subheading" align="left" padding="0" text-transform="uppercase" padding-bottom="5px"><singleline label="Heading Compensation 2">#OwenBoardGame</singleline></mj-text>
+            <mj-text mj-class="title" color="#FFFFFF" align="left" padding="0" padding-bottom="40px"><singleline label="Subheading Compensation 2">Reta tu mente, genera estrategias y explora nuevas experiencias con juegos que nunca imaginaste conocer.</singleline></mj-text>
             <mj-text mj-class="regular" color="#FFFFFF" align="left" padding="0">
-                <multiline label="Description">
+                <singleline label="Description Compensation 2">
                     Asiste a las sesiones de juegos de mesa semanal los lunes a las 5pm y pasa un día fenomenal.
                     Lugar: Cafetería 3er.
-                </multiline>
+                </singleline>
             </mj-text>
         </mj-column>
         <mj-column width="20%">
         </mj-column>
     </mj-section>
+    
+    <!-- Banner -->
+    <mj-section background-color="#FFFFFF" padding="25px 0 0 0">
+        <mj-column>
+            <mj-image padding="0" src="https://prodigiouslatam.blob.core.windows.net/talent-development/banners/rutas.png" href="http://forms.office.com/Pages/ResponsePage.aspx?id=sE8MjtxFA0GB9DEdbLvVfMUrJ3X2b61MvB4iQwaYm2ZUMTY4U0g5VFhRMUZaUVQ4SDJNTUdYRTZRVS4u" />
+        </mj-column>
+    </mj-section>
 
     <!-- Talent Management -->
     <mj-include path="./common/header-talentmanagement.mjml" />
-    <mj-section background-color="#4C2582" padding="35px 15px 25px 15px">
+    <mj-section background-color="#4C2582" background-url="https://prodigiouslatam.blob.core.windows.net/talent-development/backgrounds/einstein.png" background-size="45%" background-repeat="no-repeat" padding="35px 15px 25px 15px">
         <mj-column width="80%">
-            <mj-text mj-class="subheading" align="left" padding="0" text-transform="uppercase" padding-bottom="5px"><singleline label="Heading">#UpcomingTrainings</singleline></mj-text>
-            <mj-text mj-class="title" color="#FFFFFF" align="left" padding="0" padding-bottom="40px"><singleline label="Subheading"></singleline></mj-text>
+            <mj-text mj-class="subheading" align="left" padding="0" text-transform="uppercase" padding-bottom="5px"><singleline label="Heading Talent">#UpcomingTrainings</singleline></mj-text>
+            <mj-text mj-class="title" color="#FFFFFF" align="left" padding="0" padding-bottom="40px"><singleline label="Subheading Talent"></singleline></mj-text>
             <mj-text mj-class="regular" color="#FFFFFF" align="left" padding="0">
-                <multiline label="Description">
-                    Asiste a las sesiones de juegos de mesa semanal los lunes a las 5pm y pasa un día fenomenal.
-                    Lugar: Cafetería 3er.
-                </multiline>
+                <singleline label="Description Talent">
+                    Si buscas resultados distintos, no hagas siempre lo mismo.
+                    - Albert Einstein
+                </singleline>
             </mj-text>
         </mj-column>
         <mj-column width="20%">
@@ -93,31 +100,35 @@
     <mj-section background-color="#FFFFFF" padding="30px 15px">
         <mj-raw><repeater></mj-raw>
         
-        <!-- Single Column -->
-        <mj-raw><layout label="Single Column"></mj-raw>
+        <mj-raw><layout label="Link Training"></mj-raw>
             <mj-column width="2%"></mj-column>
             <mj-column width="96%" padding="5px" border="1px solid #4C2582" background-color="white">
                 <mj-text mj-class="title"   color="#4C2582" align="center" padding-top="15px" text-transform="uppercase"><singleline label="Training Name">CSS Grid Layouts</singleline></mj-text>
                 <mj-text mj-class="regular" color="#4C2582" align="center" padding="0 0 10px"><singleline label="Description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed urna in neque volutpat ultricies.</singleline></mj-text>
                 <mj-text mj-class="author"  color="#656565" align="center" padding="10px 0"><singleline label="Trainer">Juan Carlos Beltran</singleline>, <singleline label="Date">August 22nd, 4pm</singleline></mj-text>
+                <!-- Needs cm_dontconvertlink -->
+                <mj-button mj-class="button" color="#FFFFFF" padding="10px 25px">
+                    <mj-raw>
+                    <singleline label="Button">
+                        <a href="LINK GOES HERE" style="color: #FFFFFF; text-transform: uppercase; text-decoration: none" cm_dontconvertlink target="_blank">REGISTER NOW</a>
+                    </singleline>
+                    <mj-raw>
+                </mj-button>
             </mj-column>
             <mj-column width="2%"></mj-column>
             <mj-column width="100%"><mj-spacer height="5px"></mj-spacer></mj-column>
         <mj-raw></layout></mj-raw>
 
-        <!-- Double Column -->
-        <mj-raw><layout label="Two Columns"></mj-raw>
+        <mj-raw><layout label="Closed Training"></mj-raw>
             <mj-column width="2%"></mj-column>
-            <mj-column width="47.5%" padding="5px" border="1px solid #4C2582" background-color="white">
+            <mj-column width="96%" padding="5px" border="1px solid #4C2582" background-color="white">
                 <mj-text mj-class="title"   color="#4C2582" align="center" padding-top="15px" text-transform="uppercase"><singleline label="Training Name">CSS Grid Layouts</singleline></mj-text>
                 <mj-text mj-class="regular" color="#4C2582" align="center" padding="0 0 10px"><singleline label="Description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed urna in neque volutpat ultricies.</singleline></mj-text>
                 <mj-text mj-class="author"  color="#656565" align="center" padding="10px 0"><singleline label="Trainer">Juan Carlos Beltran</singleline>, <singleline label="Date">August 22nd, 4pm</singleline></mj-text>
-            </mj-column>
-            <mj-column width="1%"><mj-spacer height="5px"></mj-spacer></mj-column>
-            <mj-column width="47.5%" padding="5px" border="1px solid #4C2582" background-color="white">
-                <mj-text mj-class="title"   color="#4C2582" align="center" padding-top="15px" text-transform="uppercase"><singleline label="Training Name">CSS Grid Layouts</singleline></mj-text>
-                <mj-text mj-class="regular" color="#4C2582" align="center" padding="0 0 10px"><singleline label="Description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed urna in neque volutpat ultricies.</singleline></mj-text>
-                <mj-text mj-class="author"  color="#656565" align="center" padding="10px 0"><singleline label="Trainer">Juan Carlos Beltran</singleline>, <singleline label="Date">August 22nd, 4pm</singleline></mj-text>
+                <!-- Needs cm_dontconvertlink -->
+                <mj-button mj-class="button" background-color="#CCCCCC" color="#FFFFFF" padding="10px 25px">
+                    <singleline label="No Link Text">REGISTRATION CLOSED</singleline>
+                </mj-button>
             </mj-column>
             <mj-column width="2%"></mj-column>
             <mj-column width="100%"><mj-spacer height="5px"></mj-spacer></mj-column>
