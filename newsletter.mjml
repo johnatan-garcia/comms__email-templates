@@ -22,8 +22,8 @@
         mode="fixed-height"    
         background-color="#333333"
         background-url="https://prodigiouslatam.blob.core.windows.net/talent-development/hero/working.jpg"
-        padding="20px 0">
-        <mj-image align="left" width="40px" src="https://prodigiouslatam.blob.core.windows.net/talent-development/prodigious-logo-only.png" padding="0 0 0 25px"></mj-image>
+        padding="20px 10px">
+        <mj-image align="left" width="10px" src="https://prodigiouslatam.blob.core.windows.net/talent-development/prodigious-logo-only.png"></mj-image>
         <mj-text mj-class="heading" padding-bottom="100px">NEWS</mj-text>
         <mj-text mj-class="quote" align="center" color="#FFF">
             "<singleline label="Quote">Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.</singleline>"
@@ -35,6 +35,27 @@
 
     <!-- Compensation & Benefits -->
     <mj-include path="./common/header-compensation.mjml" />
+    <mj-section background-color="#f6871e" background-url="https://prodigiouslatam.blob.core.windows.net/talent-development/backgrounds/fruits.png" background-size="80%" background-repeat="repeat" padding="35px 15px 25px 15px">
+        <mj-column width="80%">
+            <mj-text mj-class="subheading" align="left" padding="0" text-transform="uppercase" padding-bottom="5px"><singleline label="Heading Compensation 0">#FruityDay</singleline></mj-text>
+            <mj-text mj-class="title" color="#FFFFFF" align="left" padding="0" padding-bottom="40px"><singleline label="Subheading Compensation 0">The warmest birthday to you all!</singleline></mj-text>
+            <mj-text mj-class="regular" color="#FFFFFF" align="left" padding="0">
+                <singleline label="Description Compensation 0">
+                    Workdays are much more lively and entertaining with you.
+                    Wishing you best of luck in everything that you do!
+                </singleline>
+            </mj-text>
+        </mj-column>
+        <mj-column width="20%">
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FFFFFF" padding="0">
+        <mj-column>
+            <mj-spacer height="25px" />
+        </mj-column>
+    </mj-section>
+
     <mj-section background-color="#f6871e" background-url="https://prodigiouslatam.blob.core.windows.net/talent-development/backgrounds/birthday-transparent-3.png" background-size="45%" background-repeat="repeat" padding="35px 15px 25px 15px">
         <mj-column width="80%">
             <mj-text mj-class="subheading" align="left" padding="0" text-transform="uppercase" padding-bottom="5px"><singleline label="Heading Compensation 1">#HappyBirthday</singleline></mj-text>
@@ -73,9 +94,15 @@
         <mj-column width="20%">
         </mj-column>
     </mj-section>
+
+    <mj-section background-color="#FFFFFF" padding="0">
+        <mj-column>
+            <mj-spacer height="25px" />
+        </mj-column>
+    </mj-section>
     
     <!-- Banner -->
-    <mj-section background-color="#FFFFFF" padding="25px 0 0 0">
+    <mj-section background-color="#FFFFFF" padding="0">
         <mj-column>
             <mj-image padding="0" src="https://prodigiouslatam.blob.core.windows.net/talent-development/banners/rutas.png" href="http://forms.office.com/Pages/ResponsePage.aspx?id=sE8MjtxFA0GB9DEdbLvVfMUrJ3X2b61MvB4iQwaYm2ZUMTY4U0g5VFhRMUZaUVQ4SDJNTUdYRTZRVS4u" />
         </mj-column>
@@ -107,7 +134,7 @@
                 <mj-text mj-class="regular" color="#4C2582" align="center" padding="0 0 10px"><singleline label="Description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed urna in neque volutpat ultricies.</singleline></mj-text>
                 <mj-text mj-class="author"  color="#656565" align="center" padding="10px 0"><singleline label="Trainer">Juan Carlos Beltran</singleline>, <singleline label="Date">August 22nd, 4pm</singleline></mj-text>
                 <!-- Needs cm_dontconvertlink -->
-                <mj-button mj-class="button" color="#FFFFFF" padding="10px 25px">
+                <mj-button mj-class="button" color="#FFFFFF" padding="5px 25px">
                     <mj-raw>
                     <singleline label="Button">
                         <a href="LINK GOES HERE" style="color: #FFFFFF; text-transform: uppercase; text-decoration: none" cm_dontconvertlink target="_blank">REGISTER NOW</a>
@@ -126,7 +153,7 @@
                 <mj-text mj-class="regular" color="#4C2582" align="center" padding="0 0 10px"><singleline label="Description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed urna in neque volutpat ultricies.</singleline></mj-text>
                 <mj-text mj-class="author"  color="#656565" align="center" padding="10px 0"><singleline label="Trainer">Juan Carlos Beltran</singleline>, <singleline label="Date">August 22nd, 4pm</singleline></mj-text>
                 <!-- Needs cm_dontconvertlink -->
-                <mj-button mj-class="button" background-color="#CCCCCC" color="#FFFFFF" padding="10px 25px">
+                <mj-button mj-class="button" background-color="#CCCCCC" color="#FFFFFF" padding="5px 25px">
                     <singleline label="No Link Text">REGISTRATION CLOSED</singleline>
                 </mj-button>
             </mj-column>

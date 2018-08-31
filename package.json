@@ -9,7 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "mjml": "^4.1.2"
+  "dependencies": {},
+  "devDependencies": {
+    "mjml": "^4.1.0-beta.4"
   }
 }
