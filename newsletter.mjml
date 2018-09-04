@@ -21,7 +21,7 @@
     <mj-hero
         mode="fixed-height"    
         background-color="#333333"
-        background-url="https://prodigiouslatam.blob.core.windows.net/talent-development/hero/working.jpg"
+        background-url="https://prodigiouslatam.blob.core.windows.net/talent-development/hero/meeting.jpg"
         padding="20px 10px">
         <mj-image align="left" width="10px" src="https://prodigiouslatam.blob.core.windows.net/talent-development/prodigious-logo-only.png"></mj-image>
         <mj-text mj-class="heading" padding-bottom="100px">NEWS</mj-text>
@@ -33,14 +33,52 @@
         </mj-text>
     </mj-hero>
 
+    <mj-section background-color="#FFFFFF" padding="0">
+        <mj-column><mj-spacer height="25px" /></mj-column>
+    </mj-section>
+
+    <!-- Recruitment -->
+    <mj-include path="./common/header-recruitment.mjml" />
+    <mj-raw><repeater></mj-raw>
+
+    <mj-raw><layout label="Recruitment Updates"></mj-raw>
+    <mj-section background-color="#ba1218" background-url="https://prodigiouslatam.blob.core.windows.net/talent-development/backgrounds/social-recruiting-3.png" background-size="90%" background-repeat="repeat" padding="35px 15px 25px 15px">
+        <mj-column width="80%">
+            <mj-text mj-class="subheading" align="left" padding="0" text-transform="uppercase" padding-bottom="5px"><singleline label="Heading Recruitment 1">#LoremIpsum</singleline></mj-text>
+            <mj-text mj-class="title" color="#FFFFFF" align="left" padding="0" padding-bottom="40px"><singleline label="Subheading Recruitment 1">......</singleline></mj-text>
+            <mj-text mj-class="regular" color="#FFFFFF" align="left" padding="0">
+                <singleline label="Description Recruitment 1">
+                    ....
+                </singleline>
+            </mj-text>
+        </mj-column>
+        <mj-column width="20%">
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#FFFFFF" padding="20px 0">
+        <mj-column width="90%">
+            <mj-text mj-class="regular" color="#000000" align="left" padding="0">
+            <singleline label="Text Recruitment 1">
+                Nay, I respect and admire Harold Zoid too much to beat him to death with his own Oscar. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.
+            </singleline>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-raw></layout></mj-raw>
+
+    <mj-raw></repeater></mj-raw>
+
     <!-- Compensation & Benefits -->
     <mj-include path="./common/header-compensation.mjml" />
+    <mj-raw><repeater></mj-raw>
+
+    <mj-raw><layout label="Fruity Block"></mj-raw>
     <mj-section background-color="#f6871e" background-url="https://prodigiouslatam.blob.core.windows.net/talent-development/backgrounds/fruits.png" background-size="80%" background-repeat="repeat" padding="35px 15px 25px 15px">
         <mj-column width="80%">
-            <mj-text mj-class="subheading" align="left" padding="0" text-transform="uppercase" padding-bottom="5px"><singleline label="Heading Compensation 0">#FruityDay</singleline></mj-text>
-            <mj-text mj-class="title" color="#FFFFFF" align="left" padding="0" padding-bottom="40px"><singleline label="Subheading Compensation 0">The warmest birthday to you all!</singleline></mj-text>
+            <mj-text mj-class="subheading" align="left" padding="0" text-transform="uppercase" padding-bottom="5px"><singleline label="Heading Compensation Fruity">#FruityDay</singleline></mj-text>
+            <mj-text mj-class="title" color="#FFFFFF" align="left" padding="0" padding-bottom="40px"><singleline label="Subheading Compensation Fruity">The warmest birthday to you all!</singleline></mj-text>
             <mj-text mj-class="regular" color="#FFFFFF" align="left" padding="0">
-                <singleline label="Description Compensation 0">
+                <singleline label="Description Compensation Fruity">
                     Workdays are much more lively and entertaining with you.
                     Wishing you best of luck in everything that you do!
                 </singleline>
@@ -49,19 +87,40 @@
         <mj-column width="20%">
         </mj-column>
     </mj-section>
-
     <mj-section background-color="#FFFFFF" padding="0">
-        <mj-column>
-            <mj-spacer height="25px" />
+        <mj-column><mj-spacer height="25px" /></mj-column>
+    </mj-section>
+    <mj-raw></layout></mj-raw>
+
+    <mj-raw><layout label="Board Games Block"></mj-raw>
+    <mj-section background-color="#f6871e" background-url="https://prodigiouslatam.blob.core.windows.net/talent-development/backgrounds/owen-2.png" background-size="100%" background-repeat="repeat" padding="35px 15px 25px 15px">
+        <mj-column width="80%">
+            <mj-text mj-class="subheading" align="left" padding="0" text-transform="uppercase" padding-bottom="5px"><singleline label="Heading Compensation Board">#OwenBoardGame</singleline></mj-text>
+            <mj-text mj-class="title" color="#FFFFFF" align="left" padding="0" padding-bottom="40px"><singleline label="Subheading Compensation Board">Reta tu mente, genera estrategias y explora nuevas experiencias con juegos que nunca imaginaste conocer.</singleline></mj-text>
+            <mj-text mj-class="regular" color="#FFFFFF" align="left" padding="0">
+                <singleline label="Description Compensation Board">
+                    Asiste a las sesiones de juegos de mesa semanal los lunes a las 5pm y pasa un día fenomenal.
+                    Lugar: Cafetería 3er.
+                </singleline>
+            </mj-text>
+        </mj-column>
+        <mj-column width="20%">
         </mj-column>
     </mj-section>
+    <mj-section background-color="#FFFFFF" padding="0">
+        <mj-column><mj-spacer height="25px" /></mj-column>
+    </mj-section>
+    <mj-raw></layout></mj-raw>
 
+    <mj-raw></repeater></mj-raw>
+
+    <!-- Birthdays -->
     <mj-section background-color="#f6871e" background-url="https://prodigiouslatam.blob.core.windows.net/talent-development/backgrounds/birthday-transparent-3.png" background-size="45%" background-repeat="repeat" padding="35px 15px 25px 15px">
         <mj-column width="80%">
-            <mj-text mj-class="subheading" align="left" padding="0" text-transform="uppercase" padding-bottom="5px"><singleline label="Heading Compensation 1">#HappyBirthday</singleline></mj-text>
-            <mj-text mj-class="title" color="#FFFFFF" align="left" padding="0" padding-bottom="40px"><singleline label="Subheading Compensation 1">The warmest birthday to you all!</singleline></mj-text>
+            <mj-text mj-class="subheading" align="left" padding="0" text-transform="uppercase" padding-bottom="5px"><singleline label="Heading Birthdays">#HappyBirthday</singleline></mj-text>
+            <mj-text mj-class="title" color="#FFFFFF" align="left" padding="0" padding-bottom="40px"><singleline label="Subheading Birthdays">The warmest birthday to you all!</singleline></mj-text>
             <mj-text mj-class="regular" color="#FFFFFF" align="left" padding="0">
-                <singleline label="Description Compensation 1">
+                <singleline label="Description Birthdays">
                     Workdays are much more lively and entertaining with you.
                     Wishing you best of luck in everything that you do!
                 </singleline>
@@ -73,44 +132,46 @@
     <mj-section background-color="#FFFFFF" padding="30px 15px">
         <mj-raw><repeater></mj-raw>
         <mj-column width="50%">
-            <mj-text mj-class="regular" align="left"><singleline label="Name Left">Name on the left</singleline></mj-text>
+            <mj-text mj-class="regular" align="left"><singleline label="Birthday Name Left">Name on the left</singleline></mj-text>
         </mj-column>
         <mj-column width="50%">
-            <mj-text mj-class="regular" align="left"><singleline label="Name Right">Name on the right</singleline></mj-text>
+            <mj-text mj-class="regular" align="left"><singleline label="Birthday Name Right">Name on the right</singleline></mj-text>
         </mj-column>
         <mj-raw></repeater></mj-raw>
     </mj-section>
-    <mj-section background-color="#f6871e" background-url="https://prodigiouslatam.blob.core.windows.net/talent-development/backgrounds/owen.png" background-size="100%" background-repeat="repeat" padding="35px 15px 25px 15px">
+    <mj-section background-color="#FFFFFF" padding="0">
+        <mj-column><mj-spacer height="25px" /></mj-column>
+    </mj-section>
+
+    <!-- HSE -->
+    <mj-include path="./common/header-health.mjml" />
+    <mj-raw><repeater></mj-raw>
+
+    <mj-raw><layout label="Health Week"></mj-raw>
+    <mj-section background-color="#00b5dc" background-url="https://prodigiouslatam.blob.core.windows.net/talent-development/backgrounds/health-week.png" background-size="100%" background-repeat="repeat" padding="35px 15px 25px 15px">
         <mj-column width="80%">
-            <mj-text mj-class="subheading" align="left" padding="0" text-transform="uppercase" padding-bottom="5px"><singleline label="Heading Compensation 2">#OwenBoardGame</singleline></mj-text>
-            <mj-text mj-class="title" color="#FFFFFF" align="left" padding="0" padding-bottom="40px"><singleline label="Subheading Compensation 2">Reta tu mente, genera estrategias y explora nuevas experiencias con juegos que nunca imaginaste conocer.</singleline></mj-text>
+            <mj-text mj-class="subheading" align="left" padding="0" text-transform="uppercase" padding-bottom="5px"><singleline label="Heading Health">#HealthWeek</singleline></mj-text>
+            <mj-text mj-class="title" color="#FFFFFF" align="left" padding="0" padding-bottom="40px"><singleline label="Subheading Health">Get me a vodka rocks. And a piece of toast.</singleline></mj-text>
             <mj-text mj-class="regular" color="#FFFFFF" align="left" padding="0">
-                <singleline label="Description Compensation 2">
-                    Asiste a las sesiones de juegos de mesa semanal los lunes a las 5pm y pasa un día fenomenal.
-                    Lugar: Cafetería 3er.
+                <singleline label="Description Health">
+                    He'll want to use your yacht, and I don't want this thing smelling like fish. I'm afraid I just blue myself. Whoa, this guy's straight? But I bought a yearbook ad from you, doesn't that mean anything anymore?
+                    He'll want to use your yacht, and I don't want this thing smelling like fish. Michael! I care deeply for nature. Say goodbye to these, because it's the last time!
                 </singleline>
             </mj-text>
         </mj-column>
         <mj-column width="20%">
         </mj-column>
     </mj-section>
+    <mj-section background-color="#FFFFFF" padding="0">
+        <mj-column><mj-spacer height="25px" /></mj-column>
+    </mj-section>
+    <mj-raw></layout></mj-raw>
 
-    <mj-section background-color="#FFFFFF" padding="0">
-        <mj-column>
-            <mj-spacer height="25px" />
-        </mj-column>
-    </mj-section>
-    
-    <!-- Banner -->
-    <mj-section background-color="#FFFFFF" padding="0">
-        <mj-column>
-            <mj-image padding="0" src="https://prodigiouslatam.blob.core.windows.net/talent-development/banners/rutas.png" href="http://forms.office.com/Pages/ResponsePage.aspx?id=sE8MjtxFA0GB9DEdbLvVfMUrJ3X2b61MvB4iQwaYm2ZUMTY4U0g5VFhRMUZaUVQ4SDJNTUdYRTZRVS4u" />
-        </mj-column>
-    </mj-section>
+    <mj-raw></repeater></mj-raw>
 
     <!-- Talent Management -->
     <mj-include path="./common/header-talentmanagement.mjml" />
-    <mj-section background-color="#4C2582" background-url="https://prodigiouslatam.blob.core.windows.net/talent-development/backgrounds/einstein.png" background-size="45%" background-repeat="no-repeat" padding="35px 15px 25px 15px">
+    <mj-section background-color="#4C2582" background-url="https://prodigiouslatam.blob.core.windows.net/talent-development/backgrounds/einstein.png" background-size="35%" background-repeat="no-repeat" padding="35px 15px 25px 15px">
         <mj-column width="80%">
             <mj-text mj-class="subheading" align="left" padding="0" text-transform="uppercase" padding-bottom="5px"><singleline label="Heading Talent">#UpcomingTrainings</singleline></mj-text>
             <mj-text mj-class="title" color="#FFFFFF" align="left" padding="0" padding-bottom="40px"><singleline label="Subheading Talent"></singleline></mj-text>
