@@ -1,0 +1,8 @@
+<mj-raw><layout label="Visitors Heading"></mj-raw>
+    <mj-column width="15%">
+    </mj-column>
+    <mj-column width="85%" background-color="#ba1218" padding="20px">
+        <mj-text mj-class="subheading" align="right" padding="0" text-transform="uppercase" padding-bottom="5px"><singleline label="Heading Visitors">#WeHaveVisitors!</singleline></mj-text>
+        <mj-text mj-class="title" color="#FFFFFF" align="right" padding="0"><singleline label="Subheading Visitors">Let's make them feel welcome</singleline></mj-text>
+    </mj-column>
+<mj-raw></layout></mj-raw>

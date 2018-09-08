@@ -12,13 +12,14 @@
       <mj-class name="regular"    font-size="15px" line-height="1"></mj-class>
       <mj-class name="normal"     font-size="14px" line-height="1"></mj-class>
       <mj-class name="normal-b"   font-size="14px" line-height="1" font-weight="bold"></mj-class>
-      <mj-class name="button" background-color="#4C2582" color="#000000" font-size="15px" line-height="20px" border-radius="3px" font-family="Gotham, sans-serif"></mj-class>
+      <mj-class name="button"     background-color="#4C2582" color="#000000" font-size="15px" line-height="20px" border-radius="3px" font-family="Gotham, sans-serif"></mj-class>
+      <mj-class name="button-red" text-transform="uppercase" background-color="#ba1218" color="#FFFFFF" font-size="15px" line-height="20px" border-radius="3px" font-family="Gotham, sans-serif"></mj-class>
     </mj-attributes>
     <mj-style inline="inline">
         a { color: inherit !important; }
     </mj-style>
   </mj-head>
-  <mj-body background-color="#ffffff">
+  <mj-body background-color="#ffffff" width="800px">
     <mj-include path="./common/preheading.mjml" />
     <mj-section background-color="#FFFFFF" padding="10px 20px 0">
         <mj-column width="70%">
@@ -28,101 +29,27 @@
 
     <!-- Recruitment Header -->
     <mj-include path="./common/header-recruitment.mjml" />
+    <!-- New Hires -->
+    <mj-include path="./latinpawer/new-hires.mjml" />
 
-    <!-- New Hires: Fixed -->
-    <mj-section background-color="#ba1218" background-size="80%" background-repeat="repeat" padding="35px 15px 25px 15px">
-        <mj-column width="80%">
-            <mj-text mj-class="subheading" align="left" padding="0" text-transform="uppercase" padding-bottom="5px"><singleline label="Heading New Hires">#NewHires</singleline></mj-text>
-            <mj-text mj-class="title" color="#FFFFFF" align="left" padding="0" padding-bottom="40px"><singleline label="Subheading New Hires">Joining us since July 23rd</singleline></mj-text>
-            <mj-text mj-class="regular" color="#FFFFFF" align="left" padding="0">
-                <singleline label="Description New Hires">
-                    Please reach out to them and give them a warm welcome :)
-                </singleline>
-            </mj-text>
-        </mj-column>
-        <mj-column width="20%">
-        </mj-column>
-    </mj-section>
-
-    <mj-section background-color="#FFFFFF" padding="30px 10px">
+    <!-- Dynamic Section for Recruitment -->
+    <mj-section padding="0">
         <mj-raw><repeater></mj-raw>
-        
-        <mj-raw><layout label="New Hire"></mj-raw>
-            <mj-column width="40%" padding="5px">
-                <mj-image src="https://prodigiouslatam.blob.core.windows.net/talent-development/recruitment/sample-newhire.jpg" />
-            </mj-column>
-            <mj-column width="60%" padding="25px 5px">
-                <mj-text mj-class="title" align="left" padding="0"><singleline label="Name">Paola Olarte</singleline></mj-text>
-                <mj-text mj-class="quote" align="left" padding="0 0 15px" color="#ba1218"><singleline label="Role">HR Manager - Colombia</singleline></mj-text>
+            
+            <mj-include path="./latinpawer/dynamic-visitors-heading.mjml" />
+            
+            <mj-include path="./latinpawer/dynamic-visitor.mjml" />
 
-                <mj-text mj-class="normal-b" align="left" padding="0 0 5px"><singleline label="Question One">Lorem ipsum dolor sit amet?</singleline></mj-text>
-                <mj-text mj-class="normal"   align="left" padding="0 0 10px"><singleline label="Answer One">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</singleline></mj-text>
+            <mj-include path="./latinpawer/dynamic-positions-heading.mjml" />
 
-                <mj-text mj-class="normal-b" align="left" padding="0 0 5px"><singleline label="Question Two">Lorem ipsum dolor sit amet?</singleline></mj-text>
-                <mj-text mj-class="normal"   align="left" padding="0 0 10px"><singleline label="Answer Two">Ut enim ad minim veniam, quis nostrud exercitation ullamco</singleline></mj-text>
+            <mj-include path="./latinpawer/dynamic-position.mjml" />
 
-                <mj-text mj-class="normal-b" align="left" padding="0 0 5px"><singleline label="Question Three">Lorem ipsum dolor sit amet?</singleline></mj-text>
-                <mj-text mj-class="normal"   align="left" padding="0 0 10px"><singleline label="Answer Three">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</singleline></mj-text>
-            </mj-column>
-        <mj-raw></layout></mj-raw>
+            <mj-include path="./latinpawer/dynamic-positions-footer.mjml" />
 
         <mj-raw></repeater></mj-raw>
     </mj-section>
 
-    <mj-section padding="0">
-    <mj-raw><repeater></mj-raw>
-        <mj-raw><layout label="Visitors Heading"></mj-raw>
-            <mj-column width="25%">
-            </mj-column>
-            <mj-column width="75%" background-color="#ba1218" padding="20px">
-                <mj-text mj-class="subheading" align="right" padding="0" text-transform="uppercase" padding-bottom="5px"><singleline label="Heading Visitors">#WeHaveVisitors!</singleline></mj-text>
-                <mj-text mj-class="title" color="#FFFFFF" align="right" padding="0"><singleline label="Subheading Visitors">Let's make them feel welcome</singleline></mj-text>
-            </mj-column>
-        <mj-raw></layout></mj-raw>
-
-        <mj-raw><layout label="Visitor"></mj-raw>
-            <mj-column width="50%" padding="10px 20px">
-                <mj-image src="https://prodigiouslatam.blob.core.windows.net/talent-development/recruitment/sample-visitor.png" padding="20px 10px 25px" />
-                <mj-text mj-class="normal-b" align="center" padding="0 0 5px"><singleline label="Question One">Lorem ipsum dolor sit amet?</singleline></mj-text>
-                <mj-text mj-class="normal"   align="center" padding="0 0 10px"><singleline label="Answer One">(265px PNG) Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</singleline></mj-text>
-            </mj-column>
-        <mj-raw></layout></mj-raw>
-
-        <mj-raw><layout label="Open Positions Heading"></mj-raw>
-            <mj-column width="75%" background-color="#ba1218" padding="20px">
-                <!--<mj-image src="https://prodigiouslatam.blob.core.windows.net/talent-development/headers/fire-icon.png" width="40px" height="40px" padding="0 0 10px" align="left" />
-                <mj-text mj-class="subheading" align="left" padding="0" text-transform="uppercase" padding-bottom="5px"><singleline label="Heading Positions">#OpenPositions</singleline></mj-text>-->
-                <mj-table padding="0">
-                    <tr style="text-align:left;padding:15px 0;text-transform:uppercase;font-size:30px;color:#FFF;font-family:Gotham, Verdana, sans-serif;letter-spacing:1px">
-                        <td style="padding-bottom:5px"><img src="https://prodigiouslatam.blob.core.windows.net/talent-development/headers/fire-icon.png" width="30px" height="30px" /></td>
-                        <td><singleline label="Heading Positions">#OpenPositions</singleline></td>
-                    </tr>
-                </mj-table>
-                <mj-text mj-class="title" color="#FFFFFF" align="left" padding="0"><singleline label="Subheading Positions">Are you ready for the challenge?</singleline></mj-text>
-            </mj-column>
-            <mj-column width="25%">
-            </mj-column>
-        <mj-raw></layout></mj-raw>
-
-        <mj-raw><layout label="Position"></mj-raw>
-            <mj-column width="100%" padding="15px 20px 0">
-                <mj-text mj-class="title" align="left" padding="10 0 5px"><singleline label="Name">Principal FrontEnd Engineer</singleline></mj-text>
-                <mj-text mj-class="normal"   align="left" padding="0 0 10px"><singleline label="Text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</singleline></mj-text>
-            </mj-column>
-        <mj-raw></layout></mj-raw>
-
-        <mj-raw><layout label="Open Positions Footer"></mj-raw>
-            <mj-column width="100%" padding="15px 20px 0">
-                <mj-text mj-class="author" align="center" padding="15px 10px">
-                    <singleline label="Text">If you're interested, please reach out to your manager.</singleline>
-                    <singleline label="More Info"><a href="https://careers-prodigious.icims.com/jobs" style="color: inherit;">See all positions in our ICIMS.</a></singleline>
-                </mj-text>
-            </mj-column>
-        <mj-raw></layout></mj-raw>
-
-    <mj-raw></repeater></mj-raw>
-    </mj-section>
-
     <mj-include path="./common/footer-simple.mjml" />
+
   </mj-body>
 </mjml>

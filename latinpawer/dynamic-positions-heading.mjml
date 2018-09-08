@@ -1,0 +1,15 @@
+<mj-raw><layout label="Open Positions Heading"></mj-raw>
+    <mj-column width="85%" background-color="#ba1218" padding="20px">
+        <!--<mj-image src="https://prodigiouslatam.blob.core.windows.net/talent-development/headers/fire-icon.png" width="40px" height="40px" padding="0 0 10px" align="left" />
+        <mj-text mj-class="subheading" align="left" padding="0" text-transform="uppercase" padding-bottom="5px"><singleline label="Heading Positions">#OpenPositions</singleline></mj-text>-->
+        <mj-table padding="0">
+            <tr style="text-align:left;padding:15px 0;text-transform:uppercase;font-size:30px;color:#FFF;font-family:Gotham, Verdana, sans-serif;letter-spacing:1px">
+                <td style="padding-bottom:5px"><img src="https://prodigiouslatam.blob.core.windows.net/talent-development/headers/fire-icon.png" width="30px" height="30px" /></td>
+                <td><singleline label="Heading Positions">#OpenPositions</singleline></td>
+            </tr>
+        </mj-table>
+        <mj-text mj-class="title" color="#FFFFFF" align="left" padding="0"><singleline label="Subheading Positions">Are you ready for the challenge?</singleline></mj-text>
+    </mj-column>
+    <mj-column width="15%">
+    </mj-column>
+<mj-raw></layout></mj-raw>

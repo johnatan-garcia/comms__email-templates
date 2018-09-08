@@ -1,0 +1,20 @@
+<mj-raw><layout label="Position"></mj-raw>
+    <mj-section background-color="#FFFFFF" padding="30px 15px">
+        <mj-column width="50%" padding="5px">
+            <mj-text mj-class="quote" align="center" padding="0">
+                <singleline label="Position Left">Principal FrontEnd Engineer</singleline>
+            </mj-text>
+            <mj-text mj-class="author" align="center" padding="5px 0 0">
+                <singleline label="Description Left">Lorem Ipsum Dolor Sic Amet</singleline>
+            </mj-text>
+        </mj-column>
+        <mj-column width="50%" padding="5px">
+            <mj-text mj-class="quote" align="center" padding="0">
+                <singleline label="Position Right">Senior Software Engineer</singleline>
+            </mj-text>
+            <mj-text mj-class="author" align="center" padding="5px 0 0">
+                <singleline label="Description Right">Lorem Ipsum Dolor Sic Amet</singleline>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+<mj-raw></layout></mj-raw>
