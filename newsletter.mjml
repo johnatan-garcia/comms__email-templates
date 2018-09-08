@@ -39,6 +39,7 @@
 
     <!-- Recruitment -->
     <mj-include path="./common/header-recruitment.mjml" />
+    
     <mj-raw><repeater></mj-raw>
 
     <mj-raw><layout label="Recruitment Updates"></mj-raw>
@@ -62,6 +63,15 @@
                 Nay, I respect and admire Harold Zoid too much to beat him to death with his own Oscar. I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.
             </singleline>
             </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-raw></layout></mj-raw>
+
+    <!-- Banner -->
+    <mj-raw><layout label="Banner Recruitment"></mj-raw>
+    <mj-section background-color="#FFFFFF" padding="25px 0 0 0">
+        <mj-column>
+            <mj-image padding="0" src="https://prodigiouslatam.blob.core.windows.net/talent-development/banners/rutas.png" />
         </mj-column>
     </mj-section>
     <mj-raw></layout></mj-raw>
