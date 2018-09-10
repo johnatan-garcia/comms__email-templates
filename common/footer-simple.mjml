@@ -1,6 +1,12 @@
 <mj-section background-color="#333332" padding-top="15px" padding-bottom="10px">
+    <mj-column width="100%">
+        <mj-image href="https://www.prodigious.com" align="center" width="125px" src="https://prodigiouslatam.blob.core.windows.net/talent-development/logo.png" padding="0 25px"></mj-image>
+    </mj-column>
     <mj-column>
-    <mj-image href="https://www.prodigious.com" align="center" width="125px" src="https://prodigiouslatam.blob.core.windows.net/talent-development/logo.png" padding="0"></mj-image>
+        <mj-social mode="horizontal" padding="10px 0 0 0">
+            <mj-social-element name="facebook"  href="https://www.facebook.com/ProdigiousLATAM/"></mj-social-element>
+            <mj-social-element name="instagram" href="https://www.instagram.com/prodigious_latam"></mj-social-element>
+        </mj-social>
     </mj-column>
 </mj-section>
 <mj-section padding-bottom="20px" padding-top="5px">

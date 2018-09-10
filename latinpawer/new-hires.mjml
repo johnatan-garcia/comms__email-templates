@@ -1,38 +1,19 @@
-<mj-section background-color="#ba1218" background-size="80%" background-repeat="repeat" padding="35px 15px 25px 15px">
-    <mj-column width="80%">
-        <mj-text mj-class="subheading" align="left" padding="0" text-transform="uppercase" padding-bottom="5px"><singleline label="Heading New Hires">#NewHires</singleline></mj-text>
-        <mj-text mj-class="title" color="#FFFFFF" align="left" padding="0" padding-bottom="40px"><singleline label="Subheading New Hires">Joining us since July 23rd</singleline></mj-text>
-        <mj-text mj-class="regular" color="#FFFFFF" align="left" padding="0">
-            <singleline label="Description New Hires">
-                Please reach out to them and give them a warm welcome :)
-            </singleline>
-        </mj-text>
+<mj-section padding="15px 10px">
+    <mj-column width="40%" padding="5px">
+        <!-- EDITABLE PHOTO -->
+        <mj-image width="230px" src="https://prodigiouslatam.blob.core.windows.net/talent-development/recruitment/sample-newhire.jpg" />
     </mj-column>
-    <mj-column width="20%">
+    <mj-column width="60%" padding="25px 5px">
+        <mj-text mj-class="title" align="left" padding="0"><singleline label="Name">Paola Olarte</singleline></mj-text>
+        <mj-text mj-class="quote" align="left" padding="0 0 15px" color="#ba1218"><singleline label="Role">HR Manager - Colombia</singleline></mj-text>
+
+        <mj-text mj-class="normal-b" align="left" padding="0 0 5px"><singleline label="Question One">Lorem ipsum dolor sit amet?</singleline></mj-text>
+        <mj-text mj-class="normal"   align="left" padding="0 0 10px"><singleline label="Answer One">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</singleline></mj-text>
+
+        <mj-text mj-class="normal-b" align="left" padding="0 0 5px"><singleline label="Question Two">Lorem ipsum dolor sit amet?</singleline></mj-text>
+        <mj-text mj-class="normal"   align="left" padding="0 0 10px"><singleline label="Answer Two">Ut enim ad minim veniam, quis nostrud exercitation ullamco</singleline></mj-text>
+
+        <mj-text mj-class="normal-b" align="left" padding="0 0 5px"><singleline label="Question Three">Lorem ipsum dolor sit amet?</singleline></mj-text>
+        <mj-text mj-class="normal"   align="left" padding="0 0 10px"><singleline label="Answer Three">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</singleline></mj-text>
     </mj-column>
-</mj-section>
-
-<mj-section background-color="#FFFFFF" padding="30px 10px">
-    <mj-raw><repeater></mj-raw>
-    
-    <mj-raw><layout label="New Hire"></mj-raw>
-        <mj-column width="40%" padding="5px">
-            <mj-image src="https://prodigiouslatam.blob.core.windows.net/talent-development/recruitment/sample-newhire.jpg" />
-        </mj-column>
-        <mj-column width="60%" padding="25px 5px">
-            <mj-text mj-class="title" align="left" padding="0"><singleline label="Name">Paola Olarte</singleline></mj-text>
-            <mj-text mj-class="quote" align="left" padding="0 0 15px" color="#ba1218"><singleline label="Role">HR Manager - Colombia</singleline></mj-text>
-
-            <mj-text mj-class="normal-b" align="left" padding="0 0 5px"><singleline label="Question One">Lorem ipsum dolor sit amet?</singleline></mj-text>
-            <mj-text mj-class="normal"   align="left" padding="0 0 10px"><singleline label="Answer One">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</singleline></mj-text>
-
-            <mj-text mj-class="normal-b" align="left" padding="0 0 5px"><singleline label="Question Two">Lorem ipsum dolor sit amet?</singleline></mj-text>
-            <mj-text mj-class="normal"   align="left" padding="0 0 10px"><singleline label="Answer Two">Ut enim ad minim veniam, quis nostrud exercitation ullamco</singleline></mj-text>
-
-            <mj-text mj-class="normal-b" align="left" padding="0 0 5px"><singleline label="Question Three">Lorem ipsum dolor sit amet?</singleline></mj-text>
-            <mj-text mj-class="normal"   align="left" padding="0 0 10px"><singleline label="Answer Three">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</singleline></mj-text>
-        </mj-column>
-    <mj-raw></layout></mj-raw>
-
-    <mj-raw></repeater></mj-raw>
 </mj-section>

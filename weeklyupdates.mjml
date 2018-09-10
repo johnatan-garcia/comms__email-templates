@@ -19,7 +19,7 @@
         a { color: inherit !important; }
     </mj-style>
   </mj-head>
-  <mj-body background-color="#ffffff" width="800px">
+  <mj-body background-color="#ffffff" width="600px">
     <mj-include path="./common/preheading.mjml" />
     <mj-section background-color="#FFFFFF" padding="10px 20px 0">
         <mj-column width="70%">
@@ -27,10 +27,33 @@
         </mj-column>
     </mj-section>
 
-    <!-- Recruitment Header -->
-    <mj-include path="./common/header-recruitment.mjml" />
-    <!-- New Hires -->
-    <mj-include path="./latinpawer/new-hires.mjml" />
+    <!-- Dynamic Sections BEFORE Recruitment -->
+    <mj-raw><repeater></mj-raw>
+        <mj-raw><layout label="Section Header - Choose your own"></mj-raw>
+            <mj-include path="./common/header-choose.mjml" />
+        <mj-raw></layout></mj-raw>
+
+        <mj-raw><layout label="Health Section"></mj-raw>
+            <mj-include path="./blocks/section-health.mjml" />
+        <mj-raw></layout></mj-raw>
+
+        <mj-raw><layout label="Health Program"></mj-raw>
+            <mj-include path="./latinpawer/dynamic-health-program.mjml" />
+        <mj-raw></layout></mj-raw>
+
+        <mj-raw><layout label="Health Program with Photo"></mj-raw>
+            <mj-include path="./latinpawer/dynamic-health-program-photo.mjml" />
+        <mj-raw></layout></mj-raw>
+
+        <mj-raw><layout label="Recruitment Section"></mj-raw>
+            <mj-include path="./blocks/section-recruitment.mjml" />
+        <mj-raw></layout></mj-raw>
+
+        <mj-raw><layout label="New Hire"></mj-raw>
+            <mj-include path="./latinpawer/new-hires.mjml" />
+        <mj-raw></layout></mj-raw>
+
+    <mj-raw></repeater></mj-raw>
 
     <!-- Dynamic Section for Recruitment -->
     <mj-section padding="0">

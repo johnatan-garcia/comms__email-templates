@@ -1,8 +1,10 @@
 <mj-raw><layout label="Open Positions Footer"></mj-raw>
-    <mj-column width="100%" padding="0 20px 10px">
-        <mj-text mj-class="author" align="center" padding="10px 10px">
-            <singleline label="Text">Reach out to your manager if you're interested to fill in one of these, or send an email to info@email.com to refer someone.</singleline>
-        </mj-text>
-        <mj-button mj-class="button-red" href='https://careers-prodigious.icims.com/jobs' padding="5px 10px 15px">See all positions in ICIMS</mj-button>
-    </mj-column>
+    <mj-group width="100%">
+        <mj-column width="100%" padding="0 20px 10px">
+            <mj-text mj-class="author" align="center" padding="10px 10px">
+                <singleline label="Text">Reach out to your manager if you're interested to fill in one of these, or send an email to info@email.com to refer someone.</singleline>
+            </mj-text>
+            <mj-button mj-class="button-red" href='https://careers-prodigious.icims.com/jobs' padding="5px 10px 15px"><span style="color: #FFF">See all positions in ICIMS</span></mj-button>
+        </mj-column>
+    </mj-group>
 <mj-raw></layout></mj-raw>

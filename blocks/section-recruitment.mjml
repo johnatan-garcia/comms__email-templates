@@ -1,0 +1,14 @@
+<mj-section background-color="#ba1218" background-size="100%" background-repeat="repeat" padding="35px 15px 25px 15px">
+    <mj-column width="80%">
+        <mj-text mj-class="subheading" align="left" padding="0" text-transform="uppercase" padding-bottom="5px"><singleline label="Heading Recruitment">#NewHires</singleline></mj-text>
+        <mj-text mj-class="title" color="#FFFFFF" align="left" padding="0" padding-bottom="40px"><singleline label="Subheading Recruitment">Get me a vodka rocks. And a piece of toast.</singleline></mj-text>
+        <mj-text mj-class="regular" color="#FFFFFF" align="left" padding="0">
+            <singleline label="Description Recruitment">He'll want to use your yacht, and I don't want this thing smelling like fish. Algunos eventos tienen cupos limitados, así que apresúrate e inscríbete!</singleline>
+        </mj-text>
+    </mj-column>
+    <mj-column width="20%">
+    </mj-column>
+</mj-section>
+<mj-section background-color="#FFFFFF" padding="0">
+    <mj-column><mj-spacer height="25px" /></mj-column>
+</mj-section>
