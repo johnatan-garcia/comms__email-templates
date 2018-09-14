@@ -4,6 +4,8 @@
         <mj-text mj-class="normal" color="#FFFFFF" align="left" padding="0" padding-bottom="5px"><singleline label="Time">4:00 p.m. a 5:00 p.m.</singleline></mj-text>
         <mj-text mj-class="normal" color="#FFFFFF" align="left" padding="0" padding-bottom="5px"><singleline label="Location">Edificio Mario Laserna, Auditorio B</singleline></mj-text>
     </mj-column>
+</mj-section>
+<mj-section padding="0">
     <mj-column width="40%" padding="5px">
         <!-- EDITABLE PHOTO -->
         <mj-image src="https://prodigiouslatam.blob.core.windows.net/talent-development/recruitment/sample-visitor.png" width="256px" />

@@ -21,58 +21,17 @@
   </mj-head>
   <mj-body background-color="#ffffff" width="800px">
     <mj-include path="./common/preheading.mjml" />
-    <mj-section background-color="#FFFFFF" padding="10px 20px 0">
-        <mj-column width="70%">
+    <mj-section background-color="#FFFFFF" padding="10px 10px 0">
+        <mj-column width="100%">
             <mj-image src="https://prodigiouslatam.blob.core.windows.net/talent-development/headers/latinpower-header-small.png" />
         </mj-column>
     </mj-section>
-
-    <!-- Dynamic Sections BEFORE Recruitment -->
-    <mj-raw><repeater></mj-raw>
-        <mj-raw><layout label="Section Header - Choose your own"></mj-raw>
-            <mj-include path="./common/header-choose.mjml" />
-        <mj-raw></layout></mj-raw>
-
-        <mj-raw><layout label="Health Section"></mj-raw>
-            <mj-include path="./blocks/section-health.mjml" />
-        <mj-raw></layout></mj-raw>
-
-        <mj-raw><layout label="Health Program"></mj-raw>
-            <mj-include path="./latinpawer/dynamic-health-program.mjml" />
-        <mj-raw></layout></mj-raw>
-
-        <mj-raw><layout label="Health Program with Photo"></mj-raw>
-            <mj-include path="./latinpawer/dynamic-health-program-photo.mjml" />
-        <mj-raw></layout></mj-raw>
-
-        <mj-raw><layout label="Recruitment Section"></mj-raw>
-            <mj-include path="./blocks/section-recruitment.mjml" />
-        <mj-raw></layout></mj-raw>
-
-        <mj-raw><layout label="New Hire"></mj-raw>
-            <mj-include path="./latinpawer/new-hires.mjml" />
-        <mj-raw></layout></mj-raw>
-
-    <mj-raw></repeater></mj-raw>
-
-    <!-- Dynamic Section for Recruitment -->
-    <mj-section padding="0">
-        <mj-raw><repeater></mj-raw>
-            
-            <mj-include path="./latinpawer/dynamic-visitors-heading.mjml" />
-            
-            <mj-include path="./latinpawer/dynamic-visitor.mjml" />
-
-            <mj-include path="./latinpawer/dynamic-positions-heading.mjml" />
-
-            <mj-include path="./latinpawer/dynamic-position.mjml" />
-
-            <mj-include path="./latinpawer/dynamic-positions-footer.mjml" />
-
-        <mj-raw></repeater></mj-raw>
+    <mj-section padding-bottom="20px" padding-top="5px">
+        <mj-group>
+        <mj-column>
+            <mj-text mj-class="preheader" align="center" line-height="18px"><span style="display: none"><unsubscribe>&nbsp;</unsubscribe></span></mj-text>
+        </mj-column>
+        </mj-group>
     </mj-section>
-
-    <mj-include path="./common/footer-simple.mjml" />
-
   </mj-body>
 </mjml>

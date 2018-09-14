@@ -1,16 +1,16 @@
 <mj-section padding="0">
-    <mj-group width="100%">
-        <mj-column width="100%" background-color="#00b5dc" padding="5px 10px">
-            <mj-text mj-class="quote" color="#FFFFFF" align="left" text-transform="uppercase" padding="6px 0 5px"><singleline label="Day">Lunes 16 de Abril</singleline></mj-text>
-            <mj-text mj-class="normal" color="#FFFFFF" align="left" padding="0" padding-bottom="5px"><singleline label="Time">4:00 p.m. a 5:00 p.m.</singleline></mj-text>
-            <mj-text mj-class="normal" color="#FFFFFF" align="left" padding="0" padding-bottom="5px"><singleline label="Location">Edificio Mario Laserna, Auditorio B</singleline></mj-text>
-        </mj-column>
-        <mj-column width="100%" padding="10px 15px">
-            <mj-text mj-class="quote" align="left" padding="0 0 15px"><singleline label="Program Name">CHARLA INAUGURAL SOBRE LA EXPOSICIÓN LA IMPRENTA DEL SÓTANO</singleline></mj-text>
-            <mj-text mj-class="regular" align="left" padding="0 0 5px">
-                <multiline label="Program Description">La presentación dará cuenta de los procesos de impresión en la Nueva Granada y la República temprana, y contará sobre el descubrimiento y la realización de la exposición. La exposición presenta una muestra de la colección de clisés encontrados en la Biblioteca Nacional en el 2015. La colección está compuesta por imágenes, escudos, fotograbados, textos y firmas, entre otros, que circularon en textos que fueron impresos desde la década del treinta cuando en el tercer piso de la Biblioteca funcionaba la imprenta del Archivo Nacional y de la Biblioteca Nacional. </multiline>
-            </mj-text>
-            <mj-text mj-class="regular" align="left" padding="10px 0"><singleline label="Program Inscription">Inscríbete aquí</singleline></mj-text>
-        </mj-column>
-    </mj-group>
+    <mj-column width="100%" background-color="#00b5dc" padding="5px 10px">
+        <mj-text mj-class="quote" color="#FFFFFF" align="left" text-transform="uppercase" padding="6px 0 5px"><singleline label="Day">Lunes 16 de Abril</singleline></mj-text>
+        <mj-text mj-class="normal" color="#FFFFFF" align="left" padding="0" padding-bottom="5px"><singleline label="Time">4:00 p.m. a 5:00 p.m.</singleline></mj-text>
+        <mj-text mj-class="normal" color="#FFFFFF" align="left" padding="0" padding-bottom="5px"><singleline label="Location">Edificio Mario Laserna, Auditorio B</singleline></mj-text>
+    </mj-column>
+</mj-section>
+<mj-section padding="0">
+    <mj-column width="100%" padding="10px 15px">
+        <mj-text mj-class="quote" align="left" padding="0 0 15px"><singleline label="Program Name">CHARLA INAUGURAL SOBRE LA EXPOSICIÓN LA IMPRENTA DEL SÓTANO</singleline></mj-text>
+        <mj-text mj-class="regular" align="left" padding="0 0 5px">
+            <multiline label="Program Description">La presentación dará cuenta de los procesos de impresión en la Nueva Granada y la República temprana, y contará sobre el descubrimiento y la realización de la exposición. La exposición presenta una muestra de la colección de clisés encontrados en la Biblioteca Nacional en el 2015. La colección está compuesta por imágenes, escudos, fotograbados, textos y firmas, entre otros, que circularon en textos que fueron impresos desde la década del treinta cuando en el tercer piso de la Biblioteca funcionaba la imprenta del Archivo Nacional y de la Biblioteca Nacional. </multiline>
+        </mj-text>
+        <mj-text mj-class="regular" align="left" padding="10px 0"><singleline label="Program Inscription">Inscríbete aquí</singleline></mj-text>
+    </mj-column>
 </mj-section>
