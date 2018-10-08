@@ -5,4 +5,10 @@
         <mj-text mj-class="normal-b" align="center" padding="0 0 5px"><singleline label="Question One">Lorem ipsum dolor sit amet?</singleline></mj-text>
         <mj-text mj-class="normal"   align="center" padding="0 0 10px"><singleline label="Answer One">(265px PNG) Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</singleline></mj-text>
     </mj-column>
+    <mj-column width="50%" padding="10px 20px">
+        <!-- EDITABLE PHOTO -->
+        <mj-image src="https://prodigiouslatam.blob.core.windows.net/talent-development/recruitment/sample-visitor.png" padding="20px 10px 25px" width="265px" />
+        <mj-text mj-class="normal-b" align="center" padding="0 0 5px"><singleline label="Question One">Lorem ipsum dolor sit amet?</singleline></mj-text>
+        <mj-text mj-class="normal"   align="center" padding="0 0 10px"><singleline label="Answer One">(265px PNG) Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</singleline></mj-text>
+    </mj-column>
 </mj-section>

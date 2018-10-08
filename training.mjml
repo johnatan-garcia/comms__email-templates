@@ -5,6 +5,7 @@
       <mj-class name="description"></mj-class>
       <mj-class name="preheader"  color="#000000" font-size="11px" padding-left="25px" padding-right="25px"></mj-class>
       <mj-class name="subheading" color="#FFFFFF" font-size="15px" line-height=".1"></mj-class>
+      <mj-class name="regular"    color="#FFFFFF" font-size="15px" line-height="1"></mj-class>
       <mj-class name="heading"    color="#FFFFFF" font-size="50px" line-height=".9"></mj-class>
       <mj-class name="button" background-color="#4C2582" color="#000000" font-size="18px" line-height="20px" border-radius="3px" font-family="Gotham, sans-serif"></mj-class>
     </mj-attributes>
@@ -34,10 +35,15 @@
         <mj-text mj-class="subheading">
           <singleline label="Date">Tuesday, August 21st. 4pm</singleline>
         </mj-text>
-        <mj-text mj-class="subheading">Presenter: 
+        <mj-text mj-class="subheading"> 
           <singleline label="Presenter">Juan Carlos Beltran</singleline>
         </mj-text>
-        <mj-button mj-class="button" color="#FFFFFF" href='https://forms.office.com/Pages/ResponsePage.aspx?id=oZ4s1SF8sUeCozOnSx90uJVYhBpksYxDoZXgsMeqUWFUMzY5V0VZQjI5V1BCRTQ1Q05IUlBWSlhMMi4u' padding="180px 25px 10px"><span style="color: #FFFFFF">REGISTER NOW</span></mj-button>
+        <mj-text mj-class="regular"> 
+          <multiline label="Summary">Conceptos básicos detrás de la tecnología blockchain.
+          Exploremos la tecnología de blockchain y cómo puede ayudarnos a resolver problemas de negocios donde la seguridad es crucial. Conozca conceptos básicos para el desarrollo de aplicaciones basadas en pruebas de consenso.</multiline>
+        </mj-text>
+        <!-- Editable -->
+        <mj-image width="190px" src="https://prodigiouslatam.blob.core.windows.net/talent-development/registernow.png" padding="100px 0 10px" />
       </mj-column>
     </mj-section>
     <mj-include path="./common/footer-talentmanagement.mjml" />

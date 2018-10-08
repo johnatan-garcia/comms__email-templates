@@ -1,0 +1,6 @@
+<mj-section background-color="#FFFFFF" padding="10px">
+    <mj-column width="100%">
+        <!-- EDITABLE PHOTO -->
+        <mj-image src="https://prodigiouslatam.blob.core.windows.net/talent-development/headers/latinpower-header-small.png" />
+    </mj-column>
+</mj-section>

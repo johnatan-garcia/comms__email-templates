@@ -1,0 +1,17 @@
+<mj-section background-color="#f6871e" background-url="https://prodigiouslatam.blob.core.windows.net/talent-development/backgrounds/birthday-transparent-3.png" background-size="45%" background-repeat="repeat" padding="35px 15px 25px 15px">
+    <mj-column width="80%">
+        <mj-text mj-class="subheading" align="left" padding="0" text-transform="uppercase" padding-bottom="5px"><singleline label="Heading Birthdays">#HappyBirthday</singleline></mj-text>
+        <mj-text mj-class="title" color="#FFFFFF" align="left" padding="0" padding-bottom="40px"><singleline label="Subheading Birthdays">The warmest birthday to you all!</singleline></mj-text>
+        <mj-text mj-class="regular" color="#FFFFFF" align="left" padding="0">
+            <singleline label="Description Birthdays">
+                Workdays are much more lively and entertaining with you.
+                Wishing you best of luck in everything that you do!
+            </singleline>
+        </mj-text>
+    </mj-column>
+    <mj-column width="20%">
+    </mj-column>
+</mj-section>
+<mj-section background-color="#FFFFFF" padding="0">
+    <mj-column><mj-spacer height="25px" /></mj-column>
+</mj-section>

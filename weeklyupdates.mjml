@@ -33,44 +33,79 @@
             <mj-include path="./common/header-choose.mjml" />
         <mj-raw></layout></mj-raw>
 
-        <mj-raw><layout label="Health Section"></mj-raw>
+        <mj-raw><layout label="Colored Heading (Blue)"></mj-raw>
             <mj-include path="./blocks/section-health.mjml" />
         <mj-raw></layout></mj-raw>
 
-        <mj-raw><layout label="Health Program"></mj-raw>
+        <mj-raw><layout label="Colored Heading (Red)"></mj-raw>
+            <mj-include path="./blocks/section-recruitment.mjml" />
+        <mj-raw></layout></mj-raw>
+
+        <mj-raw><layout label="Colored Heading (Orange / Fruity)"></mj-raw>
+            <mj-include path="./blocks/section-fruity.mjml" />
+        <mj-raw></layout></mj-raw>
+
+        <mj-raw><layout label="Colored Heading (Orange / Games)"></mj-raw>
+            <mj-include path="./blocks/section-games.mjml" />
+        <mj-raw></layout></mj-raw>
+
+        <mj-raw><layout label="Colored Heading (Orange / Birthday)"></mj-raw>
+            <mj-include path="./blocks/section-birthday.mjml" />
+        <mj-raw></layout></mj-raw>
+
+        <mj-raw><layout label="Colored Heading (Purple / Trainings)"></mj-raw>
+            <mj-include path="./blocks/section-talentmanagement.mjml" />
+        <mj-raw></layout></mj-raw>
+
+        <mj-raw><layout label="Rick Text Block"></mj-raw>
             <mj-include path="./latinpawer/dynamic-health-program.mjml" />
         <mj-raw></layout></mj-raw>
 
-        <mj-raw><layout label="Health Program with Photo"></mj-raw>
+        <mj-raw><layout label="Rich Text Block w/ Photo"></mj-raw>
             <mj-include path="./latinpawer/dynamic-health-program-photo.mjml" />
-        <mj-raw></layout></mj-raw>
-
-        <mj-raw><layout label="Recruitment Section"></mj-raw>
-            <mj-include path="./blocks/section-recruitment.mjml" />
         <mj-raw></layout></mj-raw>
 
         <mj-raw><layout label="New Hire"></mj-raw>
             <mj-include path="./latinpawer/new-hires.mjml" />
         <mj-raw></layout></mj-raw>
 
-    <mj-raw></repeater></mj-raw>
+        <mj-raw><layout label="Birthday Line"></mj-raw>
+            <mj-include path="./latinpawer/dynamic-birthday.mjml" />
+        <mj-raw></layout></mj-raw>
 
-    <!-- Dynamic Section for Recruitment -->
-    <mj-section padding="0">
-        <mj-raw><repeater></mj-raw>
-            
-            <mj-include path="./latinpawer/dynamic-visitors-heading.mjml" />
-            
-            <mj-include path="./latinpawer/dynamic-visitor.mjml" />
+        <mj-raw><layout label="Open Training"></mj-raw>
+            <mj-include path="./latinpawer/dynamic-opentraining.mjml" />
+        <mj-raw></layout></mj-raw>
 
-            <mj-include path="./latinpawer/dynamic-positions-heading.mjml" />
+        <mj-raw><layout label="Closed Training"></mj-raw>
+            <mj-include path="./latinpawer/dynamic-closedtraining.mjml" />
+        <mj-raw></layout></mj-raw>
 
+        <mj-raw><layout label="Free Banner (Upload)"></mj-raw>
+            <mj-include path="./latinpawer/dynamic-freebanner.mjml" />
+        <mj-raw></layout></mj-raw>
+
+        <mj-raw><layout label="Open Position Line"></mj-raw>
             <mj-include path="./latinpawer/dynamic-position.mjml" />
+        <mj-raw></layout></mj-raw>
 
+        <mj-raw><layout label="Open Positions Footer / Disclaimer"></mj-raw>
             <mj-include path="./latinpawer/dynamic-positions-footer.mjml" />
+        <mj-raw></layout></mj-raw>
 
-        <mj-raw></repeater></mj-raw>
-    </mj-section>
+        <mj-raw><layout label="Visitor Block (Single)"></mj-raw>
+            <mj-include path="./latinpawer/dynamic-visitor.mjml" />
+        <mj-raw></layout></mj-raw>
+
+        <mj-raw><layout label="Visitor Block (Double)"></mj-raw>
+            <mj-include path="./latinpawer/dynamic-visitor-two.mjml" />
+        <mj-raw></layout></mj-raw>
+
+        <mj-raw><layout label="Colored Small Heading (Hot Positions)"></mj-raw>
+            <mj-include path="./latinpawer/dynamic-positions-heading.mjml" />
+        <mj-raw></layout></mj-raw>
+
+    <mj-raw></repeater></mj-raw>
 
     <mj-include path="./common/footer-simple.mjml" />
 

@@ -1,4 +1,4 @@
-<mj-raw><layout label="Position"></mj-raw>
+<mj-section padding="10px">
     <mj-column width="50%" padding="15px 5px">
         <mj-text mj-class="quote" align="center" padding="0">
             <singleline label="Position Left">Principal FrontEnd Engineer</singleline>
@@ -15,4 +15,4 @@
             <singleline label="Description Right">Lorem Ipsum Dolor Sic Amet</singleline>
         </mj-text>
     </mj-column>
-<mj-raw></layout></mj-raw>
+</mj-section>

@@ -1,4 +1,5 @@
-<mj-section background-color="#00b5dc" background-url="https://prodigiouslatam.blob.core.windows.net/talent-development/backgrounds/health-week.png" background-size="100%" background-repeat="repeat" padding="35px 15px 25px 15px">
+<!-- background-url="https://prodigiouslatam.blob.core.windows.net/talent-development/backgrounds/health-week.png" background-size="100%" background-repeat="repeat" -->
+<mj-section background-color="#00b5dc" padding="35px 15px 25px 15px">
     <mj-column width="80%">
         <mj-text mj-class="subheading" color="#FFFFFF" align="left" padding="0" padding-bottom="5px"><singleline label="Heading Health">#HealthWeek</singleline></mj-text>
         <mj-text mj-class="title" color="#FFFFFF" align="left" padding="0" padding-bottom="40px"><singleline label="Subheading Health">Get me a vodka rocks. And a piece of toast.</singleline></mj-text>
